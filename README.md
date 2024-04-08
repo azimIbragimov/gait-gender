@@ -49,3 +49,26 @@ jupyter nbconvert --execute src/plot.ipynb --to html    # plot the results
 ```
 
 This will create a file `plot.html` with the results in the same format as presented in the paper (histograms, ROC curves, heatmaps, and $d_B$+$EER$ values).
+
+# Citations
+Please cite our work, as well as OpenGait. 
+
+```
+@InProceedings{Ibragimov_2024_FG,
+    author    = {Ibragimov, Azim and Pamplona Segundo, Mauricio and Sarkar, Sudeep and Bowyer, Kevin},
+    title     = {Unveiling Gender Effects in Gait Recognition using Conditional-Matched Bootstrap Analysis},
+    month     = {May},
+    year      = {2024},
+}
+```
+
+```
+@InProceedings{Fan_2023_CVPR,
+    author    = {Fan, Chao and Liang, Junhao and Shen, Chuanfu and Hou, Saihui and Huang, Yongzhen and Yu, Shiqi},
+    title     = {OpenGait: Revisiting Gait Recognition Towards Better Practicality},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {9707-9716}
+}
+```
